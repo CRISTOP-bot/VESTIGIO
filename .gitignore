@@ -1,0 +1,4 @@
+/vestigio
+*.o
+*.core
+core
