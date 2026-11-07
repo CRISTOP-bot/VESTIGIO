@@ -1,5 +1,5 @@
 #!/bin/sh
-set -eu
+set -eux
 BIN=${1:-./vestigio}
 TMP=${TMPDIR:-/tmp}/vestigio-test-$$
 trap 'rm -rf "$TMP"' EXIT HUP INT TERM
